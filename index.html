@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texnomart.uz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+      
+        <header>
+                <div class="header_div1">
+                     <div class="header_div11">
+                           <ul id="ul1">
+                               <li>
+                                        <a href="">
+                                            <img width="15" src="https://texnomart.uz/_nuxt/img/header-location.d7d11d5.svg" alt="">
+                                            Тошкент     
+                                        </a>
+                               </li>
+                               <li><a href="">Бизнинг дўконларимиз</a></li>
+                               <li><a href="">Юридик шахслар учун</a></li>
+                               <li><a href="">Тўлов усуллари</a></li>
+                           </ul>
+                     </div>
+                     <div class="header_div12">
+                          <a id="a1" href="tel:+998712099944">
+                                <span>Aлоқа маркази :</span>
+                                <span>+99871 209 99 44</span>        
+                          </a>
+                          <div class="shape_div">
+                              <img src="https://texnomart.uz/_nuxt/img/globus-lang.17660de.svg" alt="">
+                              <span>ЎЗ</span>
+                              <i class="fa-solid fa-angle-down"></i>
+                          </div>
+                     </div>
+                </div>
+                <div class="header_div2">
+                     <div class="header_div21">
+                             <div class="header_div211">
+                                  <img src="https://texnomart.uz/_nuxt/img/texnomart-logo.fcda25c.svg" alt="">
+                             </div>
+                             <div class="header_div212">
+                                  <button id="btn1">
+                                        <i class="fa-solid fa-bars"></i>
+                                        Каталог
+                                  </button>
+                                  <div class="border_div">
+                                       <img src="https://texnomart.uz/_nuxt/img/search-18.ba7042b.svg" alt="">
+                                       <input type="text" placeholder="Қидириш">
+                                  </div>
+                             </div>
+                             <div class="header_div213">
+                                <div class="hdiv1">
+                                    <i id="hi1" class="fa-regular fa-user"></i>
+                                    <a id="ha1" href="">Кириш</a>
+                                </div>
+                                <div class="hdiv1">
+                                    <i id="hi1" class="fa-regular fa-heart"></i>
+                                    <a id="ha1" href="">Севимлилар</a>
+                                </div>
+                                <div class="hdiv1">
+                                    <i id="hi1" class="fa-solid fa-cart-shopping"></i>
+                                    <a id="ha1" href="">Саватча</a>
+                                </div>
+                             </div>
+                     </div>
+                     <div class="header_div22">
+
+                        <ul id="ul2">
+                            <li>
+                                     <a href="">
+                                        <i id="uli1" class="fa-solid fa-fire"></i>
+                                         Aкциялар     
+                                     </a>
+                            </li>
+                            <li><a href=""><img src="	https://texnomart.uz/_nuxt/img/header-promotion0012-kr.ebfd341.svg" alt=""></a></li>
+                            <li><a href=""> Ҳаво совутгичлар</a></li>
+                            <li><a href="">Смартфонлар</a></li>
+                            <li><a href="">Музлатгичлар</a></li>
+                            <li><a href="">Чангютгичлар</a></li>
+                            <li><a href="">Ноутбуклар</a></li>
+                            <li><a href="">Телевизорлар</a></li>
+                            <li><a href="">Барча категориялар</a></li>
+                            
+                        </ul>
+
+                     </div>
+                </div>
+                <div class="header_div3">
+                    <img  src="https://mini-io-api.texnomart.uz/newcontent/slider/126/2ECcGQJnGpVOBkgwVcOwUNiC3e10uXI5wenBoxu1.webp" alt="">
+                </div>
+                <div class="header_div4">
+                    <div class="div41">
+                        <img src="	https://mini-io-api.texnomart.uz/catalog/special-brands/72/193da322-a1dd-40b6-9b4e-935463d2136f.webp" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="	https://mini-io-api.texnomart.uz/catalog/special-brands/70/7160cc7e-711b-44bb-a6dc-77dca7ec4924.webp" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="https://mini-io-api.texnomart.uz/catalog/special-brands/71/db9c48fb-a175-4ff9-ab06-bd953ddc82cd-medium.webp" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="https://mini-io-api.texnomart.uz/catalog/special-brands/80/dd3aeb98-802f-4ddd-9d07-c1abd4b1a482-medium.webp" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="https://mini-io-api.texnomart.uz/catalog/special-brands/87/ad04313a-6046-4404-93f4-c0f64e57289d-medium.png" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="https://mini-io-api.texnomart.uz/catalog/special-brands/73/e9c04fcd-5ed8-41f8-b417-a8f190a77de1.svg" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="https://mini-io-api.texnomart.uz/catalog/special-brands/69/6808325d-2e60-425d-9e5c-6e79cab00233.svg" alt="">
+                    </div>
+                    <div class="div41">
+                        <img src="https://mini-io-api.texnomart.uz/catalog/special-brands/96/a9acfae1-3152-4e14-a0b1-3012477425c3.svg" alt="">
+                    </div>
+                    <!-- <img src="	https://mini-io-api.texnomart.uz/catalog/special-brands/72/193da322-a1dd-40b6-9b4e-935463d2136f.webp" alt=""> -->
+                </div>
+        </header>
+
+        <main>
+            
+            <div class="main_div1">
+                <div class="div10"><h2 id="h3">Оммабоп категориялар</h2>
+                </div>
+
+                <div class="div11">
+                    <a id="md1a" href=""><i id="div11i" class="fa-solid fa-mobile"></i>Смартфонлар</a>
+                </div>
+
+                <div class="div11">
+                    <a id="md1a" href=""><img id="div112_img" src="data:image/png;base64,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" alt="">Ҳаво совутгичлар</a>
+                </div>
+
+                <div class="div11">
+                    <a id="md1a" href=""><img id="div113_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6SFnfx8q5RCyJ--epFYS8s6xugXtV7hoOA&s" alt=""></i>Чангютгичлар</a>
+                </div>
+
+                <div class="div11">
+                    <a id="md1a" href=""><img id="div114_img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAeFBMVEXw8fMZMVTY3OPm6e37+/zu8PLf4ucADUEULlItQF7s7fAAHUjo6u5BT2rh5OkAIkuepK/AxMsAJk0MKk+3vMWEjJxWY3o5S2jV2N1rdokAF0XMz9YAE0QAIEoAC0EAADQAAD5HV3BgbIJnc4enrbgyQ2GVnaqKk6Fid85ZAAAF1klEQVR4nO2daZuiOhBG2bUjE1vsxa1nenq58///4QVBFEg0VSBL5z1fGH3GGI5JSJNK4Xg5jhPlB0NE879KmR/9yLiUXojq5yXSN0R5MMSr4FihrVqjLrTFOWkp+cGQaWnzZHRGZm9E8ngw1xZX4NZFeLJOVpWMaITadJhrq8FubVEdr3jL+5Haaq3NirGtA224JOBKagImICygjQW0sYA2FtDGAtpYQBsLaGMBbSwa2pz8DWi7SlOb8EOnG23S99pqO90/Gb+2nC60lY3OEIW2E9CmB9qgzQQbtSlrBG1X0bW2uDNthBPWf2MkzUvpA+l5p9Wh6pIRpZnUbq1XtREWsqTuK2MvNC+lD0JPC+EHjvXaSM0klSwUSIr7fqieMWtMcvJGq9IWEc/XV9YkYi893g+hXrzyaaXEF6Xcp54AAAAAAAAAAIYhMGLoWo6LIH56fnl9uMHry/NTDHMngs32bZGs5zdZJ4vldgNxR8R2tnaNWc+2I7sNOgjB3k3MpWUkczS4YLWb06y57ny3st3bnm4t87Yfut7DEs8Z1lJv89EtWPRJ8Ekc104knzZ30/2BZ811DxZ30+CFMPOosn6xt7nJHdea6+5GtvbfI19vfG1vX0PXfiiCLbuPpr10a2svDV5Zs4+c+au12pbUFnbZOpfWavtNa1/Lz+363D5/W6ttRtL2tgkC+VB6m0GbCclz6in4Kjs2tBmxfMw+s1pAG7RxgDYWU9YW5gzx1f1qC6tQK1v79DnemRx0G8Z+nZhSSI/aZDNylxhkXIuV5ocAi4a0I+a/I226W9dGmO4KdZw4MTBep40WGt9sagXGJQR/FgTec23vp9d/jLWJY1+qERO91bQVKaJ82i7ctIfqrFG8kah/hnLGqg4pSe2kpq3Ep+nXNjZKN+0FodtaRUqZptPm0Jqb3po/sg0dUndaMeV8VdrCovhutI1sMS7SdaKwxQ6//ONZwSRt6qEtt2msrZ+xTaGtPO822gpf7bXFNG3Bwy8C38fFg9X36fWDqTeltszXVLW9347NOrPIJyC70+v3KWpTjm2FNtO69PRXglab00JbeprZlK04GJcSNhKhZhlt0zqmmE7cetMW1X/fLO+J70uKturOZ/5eeQVR/qOYzoZ606aHPVe6gzbTSfOktOnugNC0Kcc2Yc/Y5gx4JR1Y21QnINAGbUZAG7SZAG3QZgK0QZsDbXZqi6HtNk1tji+zxQRou4ZCW04HawmhmIY2eby3NRptZaMzYjhtxTlA2xWgDdocK7V1sSo/ZW3n59J5XWkb2U3xu8SAVF4RAgM7iDjqSZvIIicV+LT0zHptpKzWrRtbb0GoigjUAkJImV4bcWOrpr2ZDxdUbZknVuyuJl8xqZXUtPFjp1tD03bcQBr8V+YkoEWKh01olW0XZ94lxK1qu6cg2J+3RmI7hyGL718XyVagzZRKrhVoYwFt0EYB2lhAGwtoYwFtLKCNBbSxIKZPqWFv+hRqsp4K9ibr+dsmo9Zfa7X9Y2amzEj+2arN2bBTU7ruYTN07Qcj+ODnpvywtrE5jlwwE9/NF/ampsxSY8946YpndqfHDlYJ47KQJHZbS/G3h6XBoxIuHpqwPGyJiV5+IkH0+HHzwRwXj+j4eIxsb2o5tEwDeCAMAAAAAAAAAPwYykBW2l0FTU5WekxsP8TNjD2SHkkqynDly1BeSp6kSWkLVQlkI2qe4cuNP5UEsgRvk9KmjoEXtND4ynapy1Iom0KmpC3SVEiQ+pev1paZMG+2E9ImtK1BEmoqdNpI6XsnpE0vRy+0SazV5rdNezdObZF+CCP0Ur+pLcwHR8qOty6SLPZEc2oVns6znba4TGxhXMqktTnQdhtoY3EXbelUV2QJaPODcSnX8u6OLDyjG23d5N2dEOnPWNsSmc5z83/w98pboE01nhS0ysyAse02foxLAq6kt4E2FtDGAtpYQBsLaGMBbSygjQW0sYA2FtDG4m7abFtLaK/tf7JDiE7mBsWqAAAAAElFTkSuQmCC" alt=""></i>Музлатгичлар</a>
+                </div>
+
+                <div class="div11">
+                    <a id="md1a" href=""><i id="div11i" class="fa-solid fa-laptop"></i>Ноутбуклар</a>
+                </div>
+
+                <div class="div11">
+                    <a id="md1a" href=""><img src="	https://mini-io-api.texnomart.uz/catalog/special-category/9/022df0cb-6560-4735-af2b-925057321911.svg" alt="">Телевизорлар</a>
+                </div>
+
+            </div>
+
+            <div class="main_div2">
+                <div class="div101"><h2 id="h3">Янгиликлар ва блоглар</h2>
+                </div>
+
+                <div class="div21">
+                    <img id="div21_img" src="https://mini-io-api.texnomart.uz/newcontent/image/news/47/euqB0NnGBz99nUlZLKFiGtjxOanc6VJtWivUasT0.webp" alt="">
+                    <h5 id="h5">24 август 2023</h5>
+                    <h4 id="h4">Galaxy Z Fold 5</h4>
+                </div>
+
+                <div class="div21">
+                    <img id="div21_img" src="https://mini-io-api.texnomart.uz/newcontent/image/news/utTY4I58VlTfRRahLXXut61mJN8aGse6ffYUqhqX.webp" alt="">
+                    <h5 id="h5">10 апрел 2023</h5>
+                    <h4 id="h4"> Уйингиз учун кондиционерни қандай танлаш мумкин?</h4>
+                </div>
+
+                <div class="div21">
+                    <img id="div21_img" src="https://mini-io-api.texnomart.uz/newcontent/image/news/gvXehOQ9Cyz79AwZnkfRXPcSyAOXrW7gBmPjvocO.webp" alt="">
+                    <h5 id="h5">24 август 2023</h5>
+                    <h4 id="h4"> Тошкентда кондиционерларни...</h4>
+                </div>
+
+                <div class="div21">
+                    <img id="div21_img" src="https://mini-io-api.texnomart.uz/newcontent/image/news/gvXehOQ9Cyz79AwZnkfRXPcSyAOXrW7gBmPjvocO.webp" alt="">
+                    <h5 id="h5"> 05 сентябр 2023</h5>
+                    <h4 id="h4"> Ўзбекистонда машҳур ноутбуклар</h4>
+                </div>
+
+            </div>
+
+            <div class="main_div3">
+
+                <div class="div31">
+                    <img src="https://texnomart.uz/_nuxt/img/phone-min.d3c6b0c.png" alt="">
+                </div>
+
+                <div class="div32">
+
+                    <div class="div321">
+                        <h1>Иловани юкланг</h1>
+                        <h4>Ҳаридларни уйдан чиқмаган ҳолда мобил  <br> орқали амалга оширинг!</h4>
+                    </div>
+                    <div class="div322">
+                        <img src="https://texnomart.uz/_nuxt/img/app-qr-code-2x.6c90f4e.png" alt="">
+                        <h4>Камерани йўналтиринг <br> ва Texnomart <br> иловасини бепул <br> юкланг</h4>
+                    </div>
+                    <div class="div323">
+                        <img src="	https://texnomart.uz/_nuxt/img/googleplay-kr.5ef08f2.svg" alt="">
+                        <img src="https://texnomart.uz/_nuxt/img/appstore-kr.2a12a1f.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="main_div4">
+
+                <div class="div41">
+                    <h1>Телефонлар ва маиший техника муддатли тўловга</h1>
+                </div>
+
+                <div class="div42">
+                    <div class="div411">
+
+                        <img src="https://texnomart.uz/_nuxt/img/installment-2.c1acd6f.svg" alt="">
+                        <h4 id="div41_h4">Бепул етказиб бериш </h4>
+                        <h5 id="div41_h5"> Техномартга товарларни eтказиб <br> бериш шартлари</h5>
+                    </div>
+                    
+                    <div class="div412">
+                        <img src="https://texnomart.uz/_nuxt/img/installment-3.3f652a6.svg" alt="">
+                        <h4 id="div41_h4">Маҳсулотлар учун кафолат </h4>
+                        <h5 id="div41_h5">  Техномартда маҳсулотнинг <br> кафолати ва қайтарилиши ҳақида <br> ҳамма нарсани билиб олинг</h5>
+                    </div>
+                    
+                    <div class="div413">
+                        <img src="https://texnomart.uz/_nuxt/img/installment-4.e18dc34.svg" alt="">
+                        <h4 id="div41_h4">Бонус тизими</h4>
+                        <h5 id="div41_h5">Бонус тизими</h5>
+                    </div>
+
+                    <div class="div414">
+                        <img src="https://texnomart.uz/_nuxt/img/installment-5.1e3f49b.svg" alt="">
+                        <h4 id="div41_h4">  Ёрдам</h4>
+                        <h5 id="div41_h5"> Техномартга товарларни eтказиб <br> бериш шартлари</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        
+
+        <footer>
+
+            <div class="footer_div1">
+
+                <div class="fdiv10">
+                    <h5>Саволингиз борми? Қўнғироқ қилинг</h5>
+                    <h2>+998 71 209 99 44</h2>
+                    <div class="net">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="download">
+                        <img src="	https://texnomart.uz/_nuxt/img/googleplay-kr.5ef08f2.svg" alt="">
+                        <img src="https://texnomart.uz/_nuxt/img/appstore-kr.2a12a1f.svg" alt="">
+                    </div>
+                    <a href="">Дўконлар манзиллари Тошкент</a>
+                </div>
+                
+                <div class="fdiv11">
+                    <h4 id="fh4_1">Компания</h4>
+                    <h6 id="fh6_1">Юридик шахслар учун</h6>
+                    <h6 id="fh6_1">Биз ҳақимизда</h6>
+                    <h6 id="fh6_1">Янгиликлар ва блоглар</h6>
+                    <h6 id="fh6_1">IMEI ни текшириш</h6>
+                </div>
+
+                <div class="fdiv11">
+                    <h4 id="fh4_1">Маълумот</h4>
+                    <h6 id="fh6_1">Бепул етказиб бериш</h6>
+                    <h6 id="fh6_1">Бонус тизими</h6>
+                    <h6 id="fh6_1">Техномартда ишлаш</h6>
+                    <h6 id="fh6_1">Шахсий кабинет</h6>
+                    <h6 id="fh6_1">Aлоқа рақамлари</h6>
+                </div>
+
+                <div class="fdiv11">
+                    <h4 id="fh4_1">Ҳаридорга ёрдам</h4>
+                    <h6 id="fh6_1">Махсулотни қайтариш</h6>
+                    <h6 id="fh6_1">Маҳсулотлар учун кафолат</h6>
+                    <h6 id="fh6_1">Кўп сўраладиган саволлар</h6>
+                    <button><i class="fa-brands fa-telegram"></i>     Бонусингизни билиб олинг</button>
+
+                </div>
+
+            </div>
+
+            <hr id="hr">
+
+            <div class="footer_div2">
+                <h5>2016-2024 © texnomart.uz. Барча ҳуқуқлар ҳимояланган. Товарларнинг кўрсатилган қиймати ва <br> уларни сотиб олиш шартлари жорий санага амал қилади</h5>
+                <div class="f_img">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAcCAYAAAA9UNxEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKXSURBVHgB7ZldSFNhGMf/5pxu6NiWS9FZXkSDUsqosQsF66JCYmAEFhFSSd0lBELdFV30cTm6qS5c3UTQbjJiRs1laR9i2lppa8XKbW3i3Kfbcl+9x2A0FtVFzxrbfvDCec77cOB/nvd5zvO+pyyVSjUDGGSjE4XNNBvdZUzwFLvYguLAyAlOoYhYhSKDB0K0unG8nrGn7TqZCKdP7MnwuXhVj5O9O4HhM0BiGTx5G/jKo6CCVLDh2SxGJ6xpWyatyRJ8z2BCp3IDWgIuxD8akfQ7SQXnxZK+wKLM67qE8tr1oCYvBHPLXn1Kh1fK60ipr4CSvClaFpsbvQNaHDs3BEpKVTrXHNi7HYFQNG3L6yWg5L8LFlTxEYsn07awkg9KiAWX/dFj8M4Y7C5f2lZtbsb+rq2ggjSHBVUVGfZyLJ7lE4nGMuxyXjkoIRXMNRo/4w9GYLY407bN7oHHt5Th01QvBSWkglsVjVn3zmqG8Nm5COe8H/3nb2fNb2tdB0pId0tc9W3vuZxRhX+HRCTEsLYfa1bXgArSCIuqq3BIrfxr/+MHO0jFcpDvh7nHa24YoLk5gkQi+UufSj4PfT3tGOjbBWpydgBgd3mh009hwmSDayGAeDyBtQ1StG1swuF9KtSKq5ELSice/xKrbR4O1lQsLIZw95EJSfZuX7AIc42GxxuCzeFBKPwND8dnWbeVwOOXH1bmRp6/BxWkgifffsGDsXcQs+obCEVW8tnyycVmUnhjceDarSfw+sO4bzTDHwgjwL7T+lEzdqgUoIJ0Sc999SLIIiivE+PppBW7OzbBNDOHRrZBCC5FUcG6KqGADzfLae7a4fahRdEAmYSuUpdyuNDhBBtRPExzgo/gx2+IQsfIRvd3aYsETCPHV5cAAAAASUVORK5CYII=" alt="">
+                    <img src="https://texnomart.uz/_nuxt/img/alif.6e1bcde.png" alt="">
+                    <img src="https://texnomart.uz/_nuxt/img/intend.81957d2.png" alt="">
+                    <img src="https://texnomart.uz/_nuxt/img/payme.677630d.png" alt="">
+                </div>
+            </div>
+
+        </footer>
+
+
+
+
+
+
+
+</body>
+</html>
